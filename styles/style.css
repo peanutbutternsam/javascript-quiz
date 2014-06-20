@@ -12,7 +12,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	font-family: sans-serif;
+	font-family: Corbel;
 	background-color: white;
 	text-align: center;
 	-webkit-border-radius: 4px;
@@ -100,6 +100,10 @@ h1 {
 	border: 1px solid gray;
 }
 
+#possible-answers {
+	background-color: rgb(31, 30, 30);
+
+}
 .tv-shows {
 	display: inline-block;
 	width: 16%;
@@ -123,6 +127,33 @@ h1 {
 	float: left;
 	margin: 10px auto;
 }
+
+img {
+	height:100%;
+	width:100%;
+}
+
+#show-name {
+	padding-left: 6px;
+	text-decoration: underline;
+}
+
+#desc {
+	text-align: left;
+	padding: 10px 20px;
+	line-height: 24px;
+	font-size: 20px;
+}
+
+#instructions {
+	color:gray;
+	text-align: center;
+	line-height: 360px
+}
+
+
+
+
 
 
 
