@@ -26,7 +26,7 @@ body {
    Header Styles
 ---------------------------------------------------------------------------------*/
 #header{
-	background-color:whitesmoke;
+	background-color:white;
 	width:100%;
 	height:auto;
 	color:black;
@@ -58,24 +58,24 @@ h1 {
 }
 
 #bar1 {
-	background-color: #ddf8de;
+	/*background-color: #ddf8de;*/
 	
 }
 
 #bar2 {
-	background-color: #f8ddd4;
+	/*background-color: #f8ddd4;*/
 }
 
 #bar3 {
-	background-color: #ddf8de;
+	/*background-color: #ddf8de;*/
 }
 
 #bar4 {
-	background-color: #f8ddd4;
+	/*background-color: #f8ddd4;*/
 }
 
 #bar5 {
-	background-color: #ddf8de;
+	/*background-color: #ddf8de;*/
 }
 
 
@@ -93,7 +93,7 @@ h1 {
 
 .quiz-wrap {
 	height: 370px;
-	width:726px;
+	width:568px;
 	max-width: 80%;
 	background-color:white;
 	margin: 30px auto;
@@ -104,9 +104,9 @@ h1 {
 	background-color: rgb(31, 30, 30);
 
 }
-.tv-shows {
+.movies {
 	display: inline-block;
-	width: 16%;
+	width: 163.45946px;
 	margin: 10px 1%;
 	border: 1px solid gray;
 	height: 250px;
@@ -114,13 +114,13 @@ h1 {
 
 .image-drop {
 	height: 350px;
-	width: 40%;
+	width: 230.476189px;
 	border: 1px dashed black;
 	float: left;
 	margin: 10px 2%;
 }
 
-.show-desc {
+.movie-desc {
 	height: 350px;
 	width: 53%;
 	border: 1px solid gray;
@@ -133,7 +133,7 @@ img {
 	width:100%;
 }
 
-#show-name {
+#movie-name {
 	padding-left: 6px;
 	text-decoration: underline;
 }
