@@ -12,7 +12,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	font-family: Corbel;
+	font-family: helvetica;
 	background-color: white;
 	text-align: center;
 	-webkit-border-radius: 4px;
@@ -112,6 +112,10 @@ h1 {
 	height: 250px;
 }
 
+.movies:hover {
+	border: 1px solid rgb(23, 131, 13);
+}
+
 .image-drop {
 	height: 350px;
 	width: 230.476189px;
@@ -135,7 +139,8 @@ img {
 
 #movie-name {
 	padding-left: 6px;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	font-family: helvetica;
 }
 
 #desc {
